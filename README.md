@@ -36,6 +36,6 @@ Copyright (C) 2011 Nick Rothwell.
 [max]: http://cycling74.com/products/max/
 [jython]: https://github.com/cassiel/net.loadbang.jython
 [lib]: https://github.com/cassiel/net.loadbang.lib
-[manual]: https://github.com/cassiel/net.loadbang.shado/README.MANUAL.md
+[manual]: https://github.com/cassiel/net.loadbang.shado/blob/master/README.MANUAL.md
 [osc]: https://github.com/cassiel/net.loadbang.osc
 [gpl]: http://www.gnu.org/copyleft/gpl.html
