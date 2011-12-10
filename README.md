@@ -7,14 +7,14 @@ usage scenario is to install shado alongside our [Java Python
 interpreter][jython] in a MaxMSP system, and drive it via Python scripts
 triggered and controlled by MaxMSP messages.
 
-The file README.MANUAL will eventually be the manual for shado; for
-now, it contains an explanation of the shado architecture - quite
-possibly, along with the examples, just about enough to start writing
-shado "programs".
+The file [README.MANUAL][manual] will eventually be the manual for
+shado; for now, it contains an explanation of the shado architecture -
+quite possibly, along with the examples, just about enough to start
+writing shado "programs".
 
 The prebuilt JAR files are in the sub-directory `distribution`, or the
 library can be built from the enclosed sources using Maven. (For the
-Maven build, clone and build [net.loadbang.lib][lib] first, since our
+Maven build, clone and build [net.loadbang.osc][osc] first, since our
 libraries are not yet in a central repository.)
 
 See the README for [net.loadbang.lib][lib] for installation details.
@@ -37,5 +37,5 @@ Copyright (C) 2011 Nick Rothwell.
 [jython]: https://github.com/cassiel/net.loadbang.jython
 [lib]: https://github.com/cassiel/net.loadbang.lib
 [manual]: https://github.com/cassiel/net.loadbang.shado/README.MANUAL.md
-[osc]: http://opensoundcontrol.org/
+[osc]: https://github.com/cassiel/net.loadbang.osc
 [gpl]: http://www.gnu.org/copyleft/gpl.html
