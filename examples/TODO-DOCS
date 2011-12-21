@@ -1,0 +1,28 @@
+Explain that "no such function: bang" etc. is not a problem: different
+scripts have different functions provided depending on needs.
+
+Make sure we don't get Null Pointer Exception if no script comment.
+
+Tutorials in sections: a goal for each set of tutorials.
+
+Need to reload script list each time a new file is created.
+
+Explain: a "Block" is a component of shado - part of the structure of
+an application. imports are making components available from the shado
+library - an alias? - not actually creating or running any code.
+Telling a script where to find the code.
+
+shado is a philosophical statement - to make declarative the structure
+of an interface. Things that Max is not good for - moving these kinds
+of structure out of Max and into a simple scripting language - teach
+how to think about programming - how to think about building things in
+a more considered kind of way.
+
+Annotated longer examples - a "fast track".
+
+Bring in button response at the shado level quite early - present as
+boilerplate.
+
+Make the conceptual model clear - overt - isometric images.
+
+Clarify: input handler blocks - transparent.
