@@ -7,6 +7,9 @@ usage scenario is to install shado alongside our [Java Python
 interpreter][jython] in a MaxMSP system, and drive it via Python scripts
 triggered and controlled by MaxMSP messages.
 
+To get a sense for what's achievable in shado, take a look at this
+[video][vimeo].
+
 The file [README.MANUAL][manual] will eventually be the manual for
 shado; for now, it contains an explanation of the shado architecture -
 quite possibly, along with the examples, just about enough to start
@@ -33,6 +36,7 @@ Distributed under the [GNU General Public License][gpl].
 
 Copyright (C) 2011 Nick Rothwell.
 
+[vimeo]: http://vimeo.com/1338613
 [max]: http://cycling74.com/products/max/
 [jython]: https://github.com/cassiel/net.loadbang.jython
 [lib]: https://github.com/cassiel/net.loadbang.lib
