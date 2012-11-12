@@ -2,8 +2,8 @@
 	"name" : "max6",
 	"version" : 1,
 	"creationdate" : -859384335,
-	"modificationdate" : -859384179,
-	"viewrect" : [ 443.0, 279.0, 300.0, 500.0 ],
+	"modificationdate" : -859381435,
+	"viewrect" : [ 921.0, 232.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -12,8 +12,12 @@
 		"patchers" : 		{
 			"workbench.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1,
-				"toplevel" : 1
+				"local" : 1
+			}
+,
+			"workbench-clojure.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 
 		}
