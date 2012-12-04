@@ -7,8 +7,8 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 101.0, 113.0, 408.0, 491.0 ],
-		"bgcolor" : [ 0.701961, 0.701961, 0.701961, 1.0 ],
+		"rect" : [ 101.0, 113.0, 409.0, 488.0 ],
+		"bgcolor" : [ 0.0, 0.501961, 0.501961, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -79,7 +79,7 @@
 					"patching_rect" : [ 765.0, 330.0, 150.0, 16.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 190.0, 355.0, 150.0, 16.0 ],
-					"text" : "ABOUT Simple"
+					"text" : "ABOUT Cross"
 				}
 
 			}
@@ -141,7 +141,7 @@
 					"prototypename" : "c3g.DarkLabel",
 					"rounded" : 6.0,
 					"tabcolor" : [ 0.4, 0.4, 0.4, 1.0 ],
-					"tabs" : [ "reload python" ],
+					"tabs" : [ "reload clojure" ],
 					"textcolor" : [ 0.701961, 0.701961, 0.701961, 1.0 ]
 				}
 
@@ -268,7 +268,7 @@
 					"fontname" : "Courier",
 					"fontsize" : 10.0,
 					"id" : "obj-49",
-					"items" : [ "Animate.py", ",", "BlinkTest.py", ",", "Buttons.py", ",", "config.py", ",", "Counter.py", ",", "Cross.py", ",", "d_Buttons.py", ",", "d_FirstBlink.clj", ",", "d_FirstBlink.py", ",", "d_HelloWorld.py", ",", "Migrate.py", ",", "RaiseLower.py", ",", "shado-workbench.PLACE_HOLDER", ",", "Simple.py", ",", "Simple2.py", ",", "Tiles.py" ],
+					"items" : [ "Animate.py", ",", "BlinkTest.py", ",", "Buttons.py", ",", "config.clj", ",", "config.py", ",", "Counter.py", ",", "Cross.clj", ",", "Cross.py", ",", "d_Buttons.py", ",", "d_FirstBlink.clj", ",", "d_FirstBlink.py", ",", "d_HelloWorld.py", ",", "Migrate.py", ",", "RaiseLower.py", ",", "shado-workbench.PLACE_HOLDER", ",", "Simple.py", ",", "Simple2.py", ",", "Tiles.py" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -755,8 +755,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 235.0, 645.0, 353.0, 16.0 ],
-					"text" : "mxj net.loadbang.mxj.Clojure @placeholder shado-workbench"
+					"patching_rect" : [ 235.0, 645.0, 407.0, 16.0 ],
+					"text" : "mxj net.loadbang.mxj.Clojure @placeholder shado-workbench @ns user"
 				}
 
 			}
