@@ -24,15 +24,19 @@ public class SerialOSCBinaryOutputter implements IBinaryOutputter {
 	private Transmitter itsTransmitter;
 	private String itsPrefix;
 
-	public SerialOSCBinaryOutputter(String host, int port, int width, String prefix)
+	public SerialOSCBinaryOutputter(Transmitter transmitter, int width, String prefix)
 		throws UnknownHostException, CommsException
 	{
-		itsTransmitter =
-			new UDPTransmitter(InetAddress.getByName(host), port);
-		
+		itsTransmitter = transmitter;
 		itsPrefix = prefix;
 		itsNumBytes = 1 + (width - 1) / 8;
 			//	I know: deals with non-multiples of 8. Not sure why that's useful...
+	}
+
+	public SerialOSCBinaryOutputter(String host, int port, int width, String prefix)
+			throws UnknownHostException, CommsException
+	{
+		this(new UDPTransmitter(InetAddress.getByName(host), port), width, prefix);
 	}
 
 	/** Output a row. rowBits can be up to 64 bits. 

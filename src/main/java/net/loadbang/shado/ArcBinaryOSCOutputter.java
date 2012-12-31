@@ -28,13 +28,17 @@ public class ArcBinaryOSCOutputter implements IBinaryOutputter {
 	private String itsPrefix;
 	private static final int NUM_ARC_LEDS = 64;
 
+	public ArcBinaryOSCOutputter(Transmitter transmitter, String prefix)
+			throws UnknownHostException, CommsException
+		{
+			itsTransmitter = transmitter;
+			itsPrefix = prefix;
+		}
+
 	public ArcBinaryOSCOutputter(String host, int port, String prefix)
 		throws UnknownHostException, CommsException
 	{
-		itsTransmitter =
-			new UDPTransmitter(InetAddress.getByName(host), port);
-		
-		itsPrefix = prefix;
+		this(new UDPTransmitter(InetAddress.getByName(host), port), prefix);
 	}
 
 	public void outputRow(int encoder, long encoderBits)
