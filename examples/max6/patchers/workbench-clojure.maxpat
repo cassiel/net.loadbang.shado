@@ -7,8 +7,8 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 820.0, 194.0, 451.0, 489.0 ],
-		"bgcolor" : [ 0.701961, 0.701961, 0.701961, 1.0 ],
+		"rect" : [ 101.0, 113.0, 409.0, 488.0 ],
+		"bgcolor" : [ 0.0, 0.501961, 0.501961, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -17,7 +17,7 @@
 		"gridonopen" : 0,
 		"gridsize" : [ 5.0, 5.0 ],
 		"gridsnaponopen" : 0,
-		"statusbarvisible" : 2,
+		"statusbarvisible" : 0,
 		"toolbarvisible" : 1,
 		"boxanimatetime" : 200,
 		"imprint" : 0,
@@ -49,20 +49,6 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 610.0, 395.0, 59.0, 16.0 ],
 					"text" : "loadbang"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Courier",
-					"fontsize" : 10.0,
-					"id" : "obj-52",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 560.0, 715.0, 275.0, 14.0 ],
-					"text" : "exec maxObject.outlet(0\\, ['doc'\\, __doc__])"
 				}
 
 			}
@@ -155,7 +141,7 @@
 					"prototypename" : "c3g.DarkLabel",
 					"rounded" : 6.0,
 					"tabcolor" : [ 0.4, 0.4, 0.4, 1.0 ],
-					"tabs" : [ "reload python" ],
+					"tabs" : [ "reload clojure" ],
 					"textcolor" : [ 0.701961, 0.701961, 0.701961, 1.0 ]
 				}
 
@@ -282,14 +268,14 @@
 					"fontname" : "Courier",
 					"fontsize" : 10.0,
 					"id" : "obj-49",
-					"items" : [ "Animate.py", ",", "BlinkTest.py", ",", "Buttons.py", ",", "config.py", ",", "Counter.py", ",", "Cross.py", ",", "d_Buttons.py", ",", "d_FirstBlink.py", ",", "d_HelloWorld.py", ",", "Migrate.py", ",", "RaiseLower.py", ",", "shado-workbench.PLACE_HOLDER", ",", "Simple.py", ",", "Simple2.py", ",", "Tiles.py" ],
+					"items" : [ "Animate.py", ",", "BlinkTest.py", ",", "Buttons.py", ",", "config.clj", ",", "config.py", ",", "Counter.py", ",", "Cross.clj", ",", "Cross.py", ",", "d_Buttons.py", ",", "d_FirstBlink.clj", ",", "d_FirstBlink.py", ",", "d_HelloWorld.py", ",", "Migrate.py", ",", "RaiseLower.py", ",", "shado-workbench.PLACE_HOLDER", ",", "Simple.py", ",", "Simple2.py", ",", "Tiles.py" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 750.0, 485.0, 138.0, 16.0 ],
-					"prefix" : "Sultanahmet:/Users/nick/CASSIEL/MAXSEARCH/machines/monome/shado/workbench/",
+					"prefix" : "Sultanahmet:/Users/nick/GITHUB/cassiel/net.loadbang.shado/examples/max6/other/",
 					"prefix_mode" : 2,
 					"presentation" : 1,
 					"presentation_rect" : [ 190.0, 335.0, 175.0, 16.0 ],
@@ -340,9 +326,8 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 180.0, 380.0, 293.0, 14.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 190.0, 370.0, 171.0, 24.0 ],
-					"text" : "Draw a cross for the last pressed button."
+					"presentation_rect" : [ 190.0, 370.0, 171.0, 14.0 ],
+					"text" : "-"
 				}
 
 			}
@@ -770,8 +755,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 235.0, 645.0, 425.0, 16.0 ],
-					"text" : "mxj net.loadbang.jython.mxj.ScriptEngine @placeholder shado-workbench"
+					"patching_rect" : [ 235.0, 645.0, 407.0, 16.0 ],
+					"text" : "mxj net.loadbang.mxj.Clojure @placeholder shado-workbench @ns user"
 				}
 
 			}
@@ -1960,15 +1945,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-52", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-48", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-62", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2018,15 +1994,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-51", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-68", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-52", 0 ]
 				}
 
 			}
