@@ -7,11 +7,11 @@ usage scenario is to install `shado` alongside our [Java Python
 interpreter][jython] in a MaxMSP system, and drive it via Python scripts
 triggered and controlled by MaxMSP messages.
 
-To get a sense for what's achievable in shado, take a look at this
+To get a sense for what's achievable in `shado`, take a look at this
 [video][vimeo].
 
 The file [README.MANUAL][manual] will eventually be the manual for
-shado; for now, it contains an explanation of the shado architecture -
+`shado`; for now, it contains an explanation of the `shado` architecture -
 quite possibly, along with the examples, just about enough to start
 writing `shado` "programs".
 
