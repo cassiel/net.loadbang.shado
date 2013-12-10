@@ -27,7 +27,7 @@ The documentation is written to `target/site/apidocs`.
 
 Distributed under the [GNU General Public License][gpl].
 
-Copyright (C) 2011 Nick Rothwell.
+Copyright (C) 2013 Nick Rothwell.
 
 [vimeo]: http://vimeo.com/1338613
 [max]: http://cycling74.com/products/max/
