@@ -1,9 +1,9 @@
-# net.loadbang.shado
+# `net.loadbang.shado` [![Build Status](https://secure.travis-ci.org/cassiel/net.loadbang.shado.png)](http://travis-ci.org/cassiel/net.loadbang.shado)
 
-shado is a compositing and sprite library for the monome. It is
+`shado` is a compositing and sprite library for the monome. It is
 written in Java, but designed to be dynamically scripted in a language
 like Python and hosted in [MaxMSP][max] (or Max for Live). The common
-usage scenario is to install shado alongside our [Java Python
+usage scenario is to install `shado` alongside our [Java Python
 interpreter][jython] in a MaxMSP system, and drive it via Python scripts
 triggered and controlled by MaxMSP messages.
 
@@ -13,14 +13,7 @@ To get a sense for what's achievable in shado, take a look at this
 The file [README.MANUAL][manual] will eventually be the manual for
 shado; for now, it contains an explanation of the shado architecture -
 quite possibly, along with the examples, just about enough to start
-writing shado "programs".
-
-The prebuilt JAR files are in the sub-directory `distribution`, or the
-library can be built from the enclosed sources using Maven. (For the
-Maven build, clone and build [net.loadbang.osc][osc] first, since our
-libraries are not yet in a central repository.)
-
-See the README for [net.loadbang.lib][lib] for installation details.
+writing `shado` "programs".
 
 ## Documentation
 
