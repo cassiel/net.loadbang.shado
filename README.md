@@ -1,4 +1,4 @@
-# `net.loadbang.shado` [![Build Status](https://secure.travis-ci.org/cassiel/net.loadbang.shado.png)](http://travis-ci.org/cassiel/net.loadbang.shado)
+# `net.loadbang.shado` [![Build Status](https://secure.travis-ci.org/cassiel/net.loadbang.shado.png)](http://travis-ci.org/cassiel/net.loadbang.shado) [![Dependency Status](https://www.versioneye.com/user/projects/52e3ed35ec13759bb6000047/badge.png)](https://www.versioneye.com/user/projects/52e3ed35ec13759bb6000047)
 
 `shado` is a compositing and sprite library for the monome. It is
 written in Java, but designed to be dynamically scripted in a language
