@@ -36,7 +36,7 @@ public class Block extends RenderableImpl implements IPressable {
 	
 	/**	Create a block from a string of tokens denoting the rows. 
 	
-		@throws OperationException if the tokens are not all the same length,
+		@throws DataException if the tokens are not all the same length,
 		or if any of them contains an illegal symbol. */
 	
 	public Block(String tokens) throws DataException {
